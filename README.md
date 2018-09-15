@@ -12,17 +12,17 @@ GET Request : http://localhost:9988/getAllOrder
 
 #Using GSON
 FromJson file OrderList.json
-Total Number of orders Recived.
 
-Get Total Amount of the orders. 
+>Total Number of orders Recived.
 
-Name of Customers Ordered only Once.
+>Get Total Amount of the orders. 
 
-List of ordered one time, two time ... 
+>Name of Customers Ordered only Once.
 
-Name of customers By Number of orders.
+>List of ordered one time, two time ... 
+
+>Name of customers By Number of orders.
  
-
 PostgresSQL:
 
 create table orders(date varchar(20), phone bigint, name varchar(30), amount bigint);
