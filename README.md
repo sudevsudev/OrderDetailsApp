@@ -12,13 +12,16 @@ GET Request : http://localhost:9988/getAllOrder
 
 #Using GSON
 FromJson file OrderList.json
-
-Get All Customer Order Detail without using sql : Using Gson
 Total Number of orders Recived.
+
 Get Total Amount of the orders. 
+
 Name of Customers Ordered only Once.
+
 List of ordered one time, two time ... 
-Name of customers By Number of orders. 
+
+Name of customers By Number of orders.
+ 
 
 PostgresSQL:
 
